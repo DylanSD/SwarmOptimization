@@ -45,6 +45,7 @@ public class Particle {
 
     public double update(Gene gBest) {
         //Change the for loop to use matrices
+        //use nd4j library
         for (int i = 0; i < particle.size(); i++) {
             double r1 = pickRandom();
             double r2 = pickRandom();
